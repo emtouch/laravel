@@ -278,28 +278,12 @@
           </div>
         </div>
         <!-- /top navigation -->
-
         <!-- page content -->
-        <div class="right_col" role="main">
+        
+<div class="right_col" role="main">
 
-<section id="main-content" class="">
-  <section class="vrapper" style="margin-top:30px;display: inline-block;width: 100%;padding: 15px 0 0 15px;">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="page-title" >
-          <div class="pull-left">
-            @yield('containTitle')
-          </div>
-        </div>
-      </div>
-      <div class="clearfix"></div>
-      <div class="content-body">
-        @yield('contain')
-      </div>
-  </section>
-</section>
-
-
-
+   
+           @yield('contain')
 
 
 
